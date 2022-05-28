@@ -6,28 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="./img/icon">
     <title>Clone Spotify</title>
 </head>
 
 <body>
-    <header>
+    <header> <!-- inicio header-->
         <div>
-            <a><img class="img-logo" src="./img/logo.png"></a>
+            <a>
+                <img class="img-logo-header" src="./img/logo.png">
+            </a>
         </div>
 
         <div>
             <a href="#">Premium</a>
             <a href="#">Suporte</a>
             <a href="#">Baixar</a>
+            <span>|</span>
             <a href="#">inscrever-se</a>
             <a href="#">Entrar</a>
         </div>
-    </header>
+    </header><!-- fim header-->
 
-    <footer>
-        <div>
-            <a><img class="img-logo" src="./img/logo.png"></a>
-        </div>
+
+    <div class="showcase-container img-body"><!-- inicio body-->
+        <h1>Escutar muda <br> tudo</h1>
+        <p>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
+
+        <button class="download">
+            <h2>
+                Baixe o Spotify Free
+            </h2>
+        </button>
+    </div>
+
+    <div>
+        <img src="./img/music" alt="imagem de fone de ouvido">
+    </div><!-- fim body-->
+
+
+    <footer><!-- inicio footer-->
+        <section>
+            <a>
+                <img class="img-logo-footer" src="./img/logo.png">
+            </a>
+        </section>
+
         <section>
             <h2>Empresas</h2>
             <a href="#">Sobre</a>
@@ -51,21 +75,28 @@
             <a href="#">Aplicativo móvel<br>grátis</a>
         </section>
 
-        <section>
-            <a href="#">Legal</a>
-            <a href="#">Centro de Privacidade</a>
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Cookies</a>
-            <a href="#">Sobre Anúncios</a>
-            <h3>&copy; Spotify AB</h3>
-        </section>
+        <div id="icon-footer">
+            <a href="https://www.instagram.com/spotifybrasil" target="_blank"><img class="igm-social-media"
+                    src="./img/instagram.png" alt="instagram"></a>
+            <a href="https://www.facebook.com/Spotify" target="_blank"><img class="igm-social-media"
+                    src="./img/facebook.png" alt="facebook"></a>
+            <a href="https://twitter.com/spotify" target="_blank"><img class="igm-social-media" src="./img/twitter.png"
+                    alt="twitter"></a>
+        </div>
 
-        <section>
-            <a><img class="igm-social-media" src="./img/"></a>
-            <a><img class="igm-social-media" src="./img/"></a>
-            <a><img class="igm-social-media" src="./img/"></a>
-        </section>
-    </footer>
+        <div>
+            <h3>&copy; Spotify AB</h3>
+        </div>
+        <div class="footer-end">
+            <a href="#"> Legal</a>
+            <a href="#">Centro de Privacidade</a>
+            <a href="#">Política de privacidade</a>
+            <a href="#">Cookies</a>
+            <a href="#">Sobre anúncios</a>
+
+        </div>
+    </footer><!--Fim  footer-->
+   
 </body>
 
 </html>
